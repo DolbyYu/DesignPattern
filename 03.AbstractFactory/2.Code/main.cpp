@@ -3,6 +3,8 @@
 
 int main()
 {
+	//! 一个工厂不只是生产一种产品，而是生产一类产品。对生产同一类产品的工厂进行抽象
+	
 	AbstractFactory *fac = NULL;
 	AbstractBall *ball = NULL;
 	AbstractShirt *shirt = NULL;
